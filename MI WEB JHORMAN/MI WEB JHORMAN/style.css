@@ -1,0 +1,178 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 18px 12px 18px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: #000;
+    background-color: #fff;
+    padding: 12px 18px 12px 18px;
+    border-radius: 10px;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    position: absolute;
+    border-radius: 3dvb;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+section{
+    padding: 80px 0;
+}
+.inicio2{
+    padding: 160px;
+}
+footer{
+    background-color: #333;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+}
+.formulario{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);;
+}
+.formulario h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.campo{
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #006eb3;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 162, 255, 0.9);
+}
+#Inicio{
+    background-image: url(IMG/Fondo.jpg);
+    color: #030303;
+    font-size: 30px;
+    background-attachment: fixed;
+    background-position:initial;
+}
+:root{
+    scroll-behavior: smooth;
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    background-color: #071720;
+    color: white;
+    font-size: 25;
+    padding: 12px 16px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 999;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #8999aa;
+}
+loading svg polyline {
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.loading svg polyline#back {
+  fill: none;
+  stroke: #ff4d5033;
+}
+
+.loading svg polyline#front {
+  fill: none;
+  stroke: #00ffff;
+  stroke-dasharray: 48, 144;
+  stroke-dashoffset: 192;
+  animation: dash_682 2s linear infinite;
+  animation-delay: 0s;
+}
+
+.loading svg polyline#front2 {
+  fill: none;
+  stroke: #00ffff;
+  stroke-dasharray: 48, 144;
+  stroke-dashoffset: 192;
+  animation: dash_682 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes dash_682 {
+  72.5% {
+    opacity: 0;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.loading {
+    position: absolute;
+    bottom: 670px;
+    right: 200px;
+    z-index: 1000;
+}
+
